@@ -1,12 +1,23 @@
+import 'react-app-polyfill/ie9';
+import 'react-app-polyfill/ie11';
+import "react-app-polyfill/stable";
+import './App.scss';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
 import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const app = (
+  <BrowserRouter basename="/" >
+      <App />
+  </BrowserRouter>
+);
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {app}
   </React.StrictMode>,
   document.getElementById('root')
 );
