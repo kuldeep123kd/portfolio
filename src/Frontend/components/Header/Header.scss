@@ -1,0 +1,50 @@
+@mixin dflex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.header__start {
+  padding: 10px 0;
+  background-color: #FFFFFF;
+}
+
+.header__logo {
+  a {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #4458dc;
+    text-decoration: none;
+    font-weight: bold;
+    &:hover {
+      text-decoration: none;
+      color: #4458dc;
+    }
+  }
+}
+
+.navbar__list {
+  @include dflex();
+  align-items: center;
+  justify-content: flex-end;
+  ul {
+    display: flex;
+    align-items: center;
+    li {
+      padding: 7px 15px;
+      color: #212121;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all .2s linear;
+      &:hover {
+        color: #4458dc;
+      }
+    }
+    li.navbar__list__active {
+      color: #4458dc;
+    }
+  }
+}
