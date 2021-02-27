@@ -88,6 +88,21 @@ body {
     padding-bottom: 10px;
     letter-spacing: 2px;
   }
+  p {
+    color: #212121;
+  }
+  h2 {
+    color: #212121;
+    font-weight: bolder;
+    font-size: 1rem;
+    display: flex;
+    align-items: flex-start;
+    margin: 0;
+    padding: 8px 0;
+    span {
+      font-weight: normal;
+    }
+  }
 }
 
 .section3__myskills {
@@ -161,10 +176,25 @@ body {
       background: #FFFFFF;
       margin: 0 3px 8px;
       border-radius: 30px;
+      user-select: none;
     }
     li.list__active{
-      background: #4458dc;
+      background: linear-gradient(to right,#4458dc 0%,#854fee 100%) , radial-gradient(circle at top left,#4458dc,#854fee);
       color: #fff;
     }
   }
+}
+
+.img-grid{
+  margin: 20px auto;
+}
+.img-wrap{
+  overflow: hidden;
+  padding: 15px;
+  /* padding controls height, will always be perfectly square regardless of width */
+  position: relative;
+  // opacity: 0.8;
+}
+.img-wrap img{
+  width: 100%;
 }
