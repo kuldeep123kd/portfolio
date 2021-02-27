@@ -30,7 +30,6 @@ body {
 .section1__content__typewriter {
   span {
     margin: 0;
-    color: #212121;
     font-size: 1.875rem;
     font-weight: bold;
   }
@@ -83,16 +82,11 @@ body {
   h1 {
     margin: 0;
     font-size: 1.875rem;
-    color: #212121;
     font-weight: bold;
     padding-bottom: 10px;
     letter-spacing: 2px;
   }
-  p {
-    color: #212121;
-  }
   h2 {
-    color: #212121;
     font-weight: bolder;
     font-size: 1rem;
     display: flex;
@@ -101,6 +95,12 @@ body {
     padding: 8px 0;
     span {
       font-weight: normal;
+      a {
+        color: #4458dc;
+        &:hover {
+          color: #4458dc;
+        }
+      }
     }
   }
 }
@@ -109,7 +109,6 @@ body {
   h2 {
     margin: 0;
     font-size: 1.875rem;
-    color: #212121;
     font-weight: bold;
     padding-bottom: 10px;
     letter-spacing: 2px;
@@ -140,7 +139,6 @@ body {
     font-size: 1rem;
     font-weight: 500;
     letter-spacing: 1px;
-    color: #212121;
     padding-bottom: 20px;
   }
 }
@@ -149,7 +147,6 @@ body {
   h1 {
     margin: 0;
     font-size: 1.875rem;
-    color: #212121;
     font-weight: bold;
     padding-bottom: 10px;
     letter-spacing: 2px;
