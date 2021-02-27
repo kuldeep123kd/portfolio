@@ -91,6 +91,12 @@ const HomePage = () => {
                   </div>
                 </div>
                 <div className="section3__myskills__content">
+                  <h3>Vue Js</h3>
+                  <div className="myskills__content__progress__rating" >
+                    <div style={{width: "30%"}} className="myskills__content__progress__rating--filled"></div>
+                  </div>
+                </div>
+                <div className="section3__myskills__content">
                   <h3>Firebase</h3>
                   <div className="myskills__content__progress__rating" >
                     <div style={{width: "40%"}} className="myskills__content__progress__rating--filled"></div>
@@ -114,6 +120,12 @@ const HomePage = () => {
                   <h3>Bootstrap</h3>
                   <div className="myskills__content__progress__rating" >
                     <div style={{width: "80%"}} className="myskills__content__progress__rating--filled"></div>
+                  </div>
+                </div>
+                <div className="section3__myskills__content">
+                  <h3>Angular</h3>
+                  <div className="myskills__content__progress__rating" >
+                    <div style={{width: "20%"}} className="myskills__content__progress__rating--filled"></div>
                   </div>
                 </div>
                 <div className="section3__myskills__content">
