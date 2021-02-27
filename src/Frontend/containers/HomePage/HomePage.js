@@ -4,6 +4,7 @@ import Typewriter from 'typewriter-effect';
 import userimg from '../../../assets/images/user-img.png'
 import useraboutimg from '../../../assets/images/user-about.png'
 import './HomePage.scss';
+import ImageGrid from './WorkSamples';
 const HomePage = () => {
   return (
     <>
@@ -17,7 +18,7 @@ const HomePage = () => {
               <div className="section1__content__typewriter">
                 <Typewriter
                   options={{
-                    strings: ['A Front-end Web Developer', 'A React Js Developer'],
+                    strings: ['A Frontend Web Developer', 'A React Js Developer'],
                     autoStart: true,
                     loop: true,
                   }}
@@ -47,7 +48,18 @@ const HomePage = () => {
           <div className="col-lg-7 col-md-7 col-sm-12 col-xs-12">
             <div className="section2__content">
               <h1>About Me</h1>
-              <p></p>
+              <p>Frontend Web Developer at DigiCollect. Freelance React Js Developer, Redhat global certified in RHCE. Love creating responsive UI components.</p>
+              <div className="row no-gutters">
+                <div className="col-lg-6">
+                  <h2>Name:&nbsp;<span>Kuldeep Shakya</span></h2>
+                  <h2>Phone:&nbsp;<span>+91-9458456509</span></h2>
+                  <h2>Zip code:&nbsp;<span>205001</span></h2>
+                </div>
+                <div className="col-lg-6">
+                  <h2>Email:&nbsp;<span><a href="mailto:kuldeep.shakya.kd@gmail.com" >kuldeep.shakya.kd@gmail.com</a></span></h2>
+                  <h2>City:&nbsp;<span>Mainpuri, Uttar Pradesh, India</span></h2>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -135,17 +147,7 @@ const HomePage = () => {
             </ul>
           </div>
           <div className="section4__work__list__content">
-            <div className="row">
-              <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-
-              </div>
-              <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-
-              </div>
-              <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-
-              </div>
-            </div>
+            <ImageGrid />
           </div>
         </div>
       </div>
