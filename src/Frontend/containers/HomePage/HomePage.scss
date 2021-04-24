@@ -12,7 +12,10 @@ body {
 
 .section1,
 .section2,
-.section3 {
+.section3,
+.section4,
+.section5,
+.section6 {
   padding-top: 100px;
 }
 
@@ -335,6 +338,12 @@ body {
         width: -webkit-max-content;
         width: max-content;
       }
+      ul {
+        li {
+          font-style: italic;
+          padding-top: 10px;
+        }
+      }
     }
   }
 }
@@ -359,6 +368,16 @@ body {
     text-decoration: none;
     display: block;
   }
+}
+
+.comming__soon {
+  font-size: 0.875rem;
+  margin: 15px 0;
+  padding: 5px 10px;
+  text-align: center;
+  color: #4458dc;
+  border: 1.8px dashed #4458dc;
+  border-radius: 8px;
 }
 
 .footer {

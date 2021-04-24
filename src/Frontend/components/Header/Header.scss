@@ -6,9 +6,20 @@
   display: flex;
 }
 
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
 .header__start {
   padding: 10px 0;
   background-color: #FFFFFF;
+  -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  -moz-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  -ms-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  -o-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 .header__logo {
@@ -53,8 +64,8 @@
         }
       }
     }
-    li.navbar__list__active {
-      a {
+    li {
+      a.navbar__list__active {
         color: #4458dc;
       }
     }
