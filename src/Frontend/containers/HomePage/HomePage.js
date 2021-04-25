@@ -105,13 +105,13 @@ const HomePage = () => {
                 <div className="section3__myskills__content" data-aos="fade-up" data-aos-delay="200" data-aos-once="true">
                   <h3>React Js</h3>
                   <div className="myskills__content__progress__rating" >
-                    <div style={{width: "50%"}} className="myskills__content__progress__rating--filled"></div>
+                    <div style={{width: "60%"}} className="myskills__content__progress__rating--filled"></div>
                   </div>
                 </div>
                 <div className="section3__myskills__content" data-aos="fade-up" data-aos-delay="200" data-aos-once="true">
                   <h3>Vue Js</h3>
                   <div className="myskills__content__progress__rating" >
-                    <div style={{width: "30%"}} className="myskills__content__progress__rating--filled"></div>
+                    <div style={{width: "60%"}} className="myskills__content__progress__rating--filled"></div>
                   </div>
                 </div>
                 <div className="section3__myskills__content" data-aos="fade-up" data-aos-delay="200" data-aos-once="true">
@@ -131,7 +131,7 @@ const HomePage = () => {
                 <div className="section3__myskills__content" data-aos="fade-up" data-aos-delay="200" data-aos-once="true">
                   <h3>Javascript</h3>
                   <div className="myskills__content__progress__rating" >
-                    <div style={{width: "50%"}} className="myskills__content__progress__rating--filled"></div>
+                    <div style={{width: "60%"}} className="myskills__content__progress__rating--filled"></div>
                   </div>
                 </div>
                 <div className="section3__myskills__content" data-aos="fade-up" data-aos-delay="200" data-aos-once="true">
