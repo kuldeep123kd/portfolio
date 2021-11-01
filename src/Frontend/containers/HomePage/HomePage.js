@@ -115,12 +115,6 @@ const HomePage = () => {
                   </div>
                 </div>
                 <div className="section3__myskills__content" data-aos="fade-up" data-aos-delay="200" data-aos-once="true">
-                  <h3>Firebase</h3>
-                  <div className="myskills__content__progress__rating" >
-                    <div style={{width: "40%"}} className="myskills__content__progress__rating--filled"></div>
-                  </div>
-                </div>
-                <div className="section3__myskills__content" data-aos="fade-up" data-aos-delay="200" data-aos-once="true">
                   <h3>React Native</h3>
                   <div className="myskills__content__progress__rating" >
                     <div style={{width: "20%"}} className="myskills__content__progress__rating--filled"></div>
@@ -140,12 +134,12 @@ const HomePage = () => {
                     <div style={{width: "80%"}} className="myskills__content__progress__rating--filled"></div>
                   </div>
                 </div>
-                <div className="section3__myskills__content" data-aos="fade-up" data-aos-delay="200" data-aos-once="true">
+                {/* <div className="section3__myskills__content" data-aos="fade-up" data-aos-delay="200" data-aos-once="true">
                   <h3>Angular</h3>
                   <div className="myskills__content__progress__rating" >
                     <div style={{width: "20%"}} className="myskills__content__progress__rating--filled"></div>
                   </div>
-                </div>
+                </div> */}
                 <div className="section3__myskills__content" data-aos="fade-up" data-aos-delay="200" data-aos-once="true">
                   <h3>Node Js</h3>
                   <div className="myskills__content__progress__rating" >
@@ -156,6 +150,12 @@ const HomePage = () => {
                   <h3>Rest API</h3>
                   <div className="myskills__content__progress__rating" >
                     <div style={{width: "50%"}} className="myskills__content__progress__rating--filled"></div>
+                  </div>
+                </div>
+                <div className="section3__myskills__content" data-aos="fade-up" data-aos-delay="200" data-aos-once="true">
+                  <h3>Firebase</h3>
+                  <div className="myskills__content__progress__rating" >
+                    <div style={{width: "40%"}} className="myskills__content__progress__rating--filled"></div>
                   </div>
                 </div>
               </div>
