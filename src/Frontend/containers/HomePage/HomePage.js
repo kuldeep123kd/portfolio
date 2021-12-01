@@ -90,19 +90,7 @@ const HomePage = () => {
           <div className="section3__myskills__types">
             <div className="row">
               <div className="col-lg-6 col-md-6 col-sm-6 col-12">
-                <div className="section3__myskills__content" data-aos="fade-up" data-aos-delay="200" data-aos-once="true">
-                  <h3>HTML</h3>
-                  <div className="myskills__content__progress__rating" >
-                    <div style={{width: "95%"}} className="myskills__content__progress__rating--filled"></div>
-                  </div>
-                </div>
-                <div className="section3__myskills__content" data-aos="fade-up" data-aos-delay="200" data-aos-once="true">
-                  <h3>CSS</h3>
-                  <div className="myskills__content__progress__rating" >
-                    <div style={{width: "95%"}} className="myskills__content__progress__rating--filled"></div>
-                  </div>
-                </div>
-                <div className="section3__myskills__content" data-aos="fade-up" data-aos-delay="200" data-aos-once="true">
+              <div className="section3__myskills__content" data-aos="fade-up" data-aos-delay="200" data-aos-once="true">
                   <h3>React Js</h3>
                   <div className="myskills__content__progress__rating" >
                     <div style={{width: "75%"}} className="myskills__content__progress__rating--filled"></div>
@@ -115,9 +103,27 @@ const HomePage = () => {
                   </div>
                 </div>
                 <div className="section3__myskills__content" data-aos="fade-up" data-aos-delay="200" data-aos-once="true">
+                  <h3>Rest API</h3>
+                  <div className="myskills__content__progress__rating" >
+                    <div style={{width: "90%"}} className="myskills__content__progress__rating--filled"></div>
+                  </div>
+                </div>
+                <div className="section3__myskills__content" data-aos="fade-up" data-aos-delay="200" data-aos-once="true">
                   <h3>React Native</h3>
                   <div className="myskills__content__progress__rating" >
                     <div style={{width: "30%"}} className="myskills__content__progress__rating--filled"></div>
+                  </div>
+                </div>
+                <div className="section3__myskills__content" data-aos="fade-up" data-aos-delay="200" data-aos-once="true">
+                  <h3>HTML</h3>
+                  <div className="myskills__content__progress__rating" >
+                    <div style={{width: "95%"}} className="myskills__content__progress__rating--filled"></div>
+                  </div>
+                </div>
+                <div className="section3__myskills__content" data-aos="fade-up" data-aos-delay="200" data-aos-once="true">
+                  <h3>CSS</h3>
+                  <div className="myskills__content__progress__rating" >
+                    <div style={{width: "95%"}} className="myskills__content__progress__rating--filled"></div>
                   </div>
                 </div>
               </div>
@@ -126,6 +132,12 @@ const HomePage = () => {
                   <h3>Javascript</h3>
                   <div className="myskills__content__progress__rating" >
                     <div style={{width: "75%"}} className="myskills__content__progress__rating--filled"></div>
+                  </div>
+                </div>
+                <div className="section3__myskills__content" data-aos="fade-up" data-aos-delay="200" data-aos-once="true">
+                  <h3>Redux</h3>
+                  <div className="myskills__content__progress__rating" >
+                    <div style={{width: "60%"}} className="myskills__content__progress__rating--filled"></div>
                   </div>
                 </div>
                 <div className="section3__myskills__content" data-aos="fade-up" data-aos-delay="200" data-aos-once="true">
@@ -144,12 +156,6 @@ const HomePage = () => {
                   <h3>Node Js</h3>
                   <div className="myskills__content__progress__rating" >
                     <div style={{width: "30%"}} className="myskills__content__progress__rating--filled"></div>
-                  </div>
-                </div>
-                <div className="section3__myskills__content" data-aos="fade-up" data-aos-delay="200" data-aos-once="true">
-                  <h3>Rest API</h3>
-                  <div className="myskills__content__progress__rating" >
-                    <div style={{width: "90%"}} className="myskills__content__progress__rating--filled"></div>
                   </div>
                 </div>
                 <div className="section3__myskills__content" data-aos="fade-up" data-aos-delay="200" data-aos-once="true">
@@ -222,7 +228,7 @@ const HomePage = () => {
                   <div className="section5__resume__work__text__title">
                     <h3>Frontend Web Developer</h3>
                     <span>
-                      Jan 2021 - Present
+                      Dec 2020 - Feb 2021
                     </span>
                   </div>
                   <span>Freelance</span>
